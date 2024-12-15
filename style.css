@@ -1,0 +1,123 @@
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  }
+  
+  .container {
+  width: 90%;
+  max-width: 400px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 0px;
+  }
+  
+  .title {
+  text-align: center;
+  color: #ff6699;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  }
+  
+  /* Offer Options */
+  .radio-option {border: 1px solid #ff6699;border-radius: 0px;margin-bottom: 15px;padding: 10px;position: relative;}
+  
+  .radio-option input[type="radio"] {
+  margin-right: 10px;
+  }
+  
+  .option-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .discount {
+  background-color: #ff6699;
+  color: white;
+  font-size: 0.8em;
+  padding: 3px 6px;
+  border-radius: 0px;
+  }
+  
+  .price {
+  font-size: 0.9em;
+  color: #333;
+  }
+  
+  del {
+  color: #999;
+  }
+  
+  .selection {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px;
+  }
+  
+  .hidden {
+  display: none;
+  }
+  
+  /* Footer */
+  .footer {
+  text-align: center;
+  margin-top: 20px;
+  }
+  
+  .free-delivery {
+  color: #ff6699;
+  font-size: 0.9em;
+  }
+  
+  #total {
+  font-weight: bold;
+  }
+  
+  button {
+  background-color: #ff6699;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 0px;
+  font-size: 1em;
+  cursor: pointer;
+  
+  width: 100% !important;
+  }
+  
+  button:hover {
+  background-color: #e65588;
+  }
+  
+  /* General Dropdown Styling */
+  select {
+    appearance: none; /* Remove default browser dropdown */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: white;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    width: 100%;
+    cursor: pointer;
+  
+    /* Custom arrow */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" viewBox="0 0 16 16"><path d="M1.646 5.646a.5.5 0 0 1 .708 0L8 11.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+  }
+  
+  /* Ensure padding for the custom arrow */
+  .selection select {
+    padding-right: 30px;
+  }
+  
